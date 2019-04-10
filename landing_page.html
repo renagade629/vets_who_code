@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="landing_page.css">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script>
+    <script src="landing_page.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class ="navigation_container">
+            <img src="logo2.png" alt="Logo">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero_container"> 
+            <div class="left_background_container">
+                <img src="left_background.png" alt="left side background">
+                <div class="left_text">
+                    Special Needs <br> Requires
+                </div>
+            </div>
+
+            <img src="hero_img.jpg" alt="hero image">
+
+            <div class="right_background_container">
+                <img src="right_background.png" alt="right side background">
+                <div class="right_text">
+                    Special <br> Attention
+                </div>
+            </div>
+            
+        </div>
+        <div class ="main_initial_state">
+            <div class="teacher_btn_container">
+                <p>
+                    Are you a teacher? <br>
+                    Needs help with your students IEP? <br>
+                </p>
+                <button onclick="modifyTeacherInnterHtml()">Click here</button>
+            </div>
+    
+            <div class="parent_btn_container">
+                <p>
+                    Are you a parent of a special needs child?  <br>
+                    Need help tracking your child's IEP goals? <br>
+                </p>
+                <button onclick="modifyParentInnterHtml()">Click here</button>
+            </div>
+        </div>
+        <form>
+            <input type="text" value="">
+            <input type="button" value="Sign up">
+        </form>
+    </main>
+
+    <footer>
+        &copy Marin Ventures LLC
+    </footer>
+</body>
+</html>
